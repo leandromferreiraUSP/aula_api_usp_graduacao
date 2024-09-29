@@ -45,3 +45,86 @@ Colocar a api funcionando
 
 
 
+Fonte:
+
+
+https://vigent.saude.sp.gov.br/sisaweb_api/dados.php?tipo=X&id=YY&inicio=yyyy-mm-dd&final=yyyy-mm-dd
+
+https://vigent.saude.sp.gov.br/sisaweb_api/dados.php?tipo=1&id=589&inicio=2024-01-01&final=2024-09-01
+
+
+
+
+
+
+[
+    {
+        "id": 1,
+        "id_cidade": 589,
+        "nome": "SOROCABA",
+        "area": "Norte",
+        "imoveis": 29313,
+        "trabalhados": "19",
+        "nao_trabalhados": "23",
+        "pend": "54.76",
+        "visitados": "42"
+    },
+    {
+        "id": 2,
+        "id_cidade": 589,
+        "nome": "SOROCABA",
+        "area": "Centro Norte",
+        "imoveis": 25604,
+        "trabalhados": "19",
+        "nao_trabalhados": "18",
+        "pend": "48.65",
+        "visitados": "37"
+    },
+    {
+        "id": 3,
+        "id_cidade": 589,
+        "nome": "SOROCABA",
+        "area": "Centro Sul",
+        "imoveis": 39207,
+        "trabalhados": "5",
+        "nao_trabalhados": "0",
+        "pend": "0.00",
+        "visitados": "5"
+    },
+    {
+        "id": 4,
+        "id_cidade": 589,
+        "nome": "SOROCABA",
+        "area": "Leste",
+        "imoveis": 30207,
+        "trabalhados": "40",
+        "nao_trabalhados": "43",
+        "pend": "51.81",
+        "visitados": "83"
+    },
+    {
+        "id": 5,
+        "id_cidade": 589,
+        "nome": "SOROCABA",
+        "area": "Noroeste",
+        "imoveis": 38170,
+        "trabalhados": "117142",
+        "nao_trabalhados": "27",
+        "pend": "0.02",
+        "visitados": "117169"
+    },
+    {
+        "id": 6,
+        "id_cidade": 589,
+        "nome": "SOROCABA",
+        "area": "Sudoeste",
+        "imoveis": 55319,
+        "trabalhados": "6",
+        "nao_trabalhados": "15",
+        "pend": "71.43",
+        "visitados": "21"
+    }
+]
+
+
+

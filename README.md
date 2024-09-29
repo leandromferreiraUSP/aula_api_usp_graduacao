@@ -105,15 +105,13 @@ Para debugar a aplicação, você pode rodar o arquivo **run_api.py** no modo de
 
 O diretório **requests_api** contém scripts Python que realizam chamadas às APIs para diferentes operações. Aqui está uma descrição de cada arquivo e como utilizá-los:
 
-
-*client_requests* - Este arquivo contém uma função para inserir um novo registro na API.
-*create_registro.py* - Este arquivo contém uma função para inserir um novo registro na API.
-*create_registro_batch.py*  - Este arquivo contém uma função para inserir registros em lotes via API.
-*delete_registro.py* - Este arquivo contém uma função para deletar um registro específico pelo ID.
-*get_registro_by_id.py* - Este arquivo contém uma função para obter um registro específico pelo ID.
-*get_registro_cidade.py* - Este arquivo contém duas funções para obter um registro específico pelo ID da cidade e, opcionalmente, pela área.
-*get_registros.py* - Este arquivo contém uma função para obter todos os registros.
-*search_by_visitados.py* - Este arquivo contém uma função para buscar registros com base em um critério específico (por exemplo, visitados).  
+- **create_registro.py**: Este arquivo contém uma função para inserir um novo registro na API.
+- **create_registro_batch.py**: Este arquivo contém uma função para inserir registros em lotes via API.
+- **delete_registro.py**: Este arquivo contém uma função para deletar um registro específico pelo ID.
+- **get_registro_by_id.py**: Este arquivo contém uma função para obter um registro específico pelo ID.
+- **get_registro_cidade.py**: Este arquivo contém duas funções para obter um registro específico pelo ID da cidade e, opcionalmente, pela área.
+- **get_registros.py**: Este arquivo contém uma função para obter todos os registros.
+- **search_by_visitados.py**: Este arquivo contém uma função para buscar registros com base em um critério específico (por exemplo, visitados).
 
   
 
