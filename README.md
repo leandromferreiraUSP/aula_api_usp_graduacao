@@ -27,7 +27,7 @@ Para configurar o ambiente virtual utilizando Poetry, siga os passos abaixo:
 1. Instale as dependências do projeto (na raiz do projeto).
 
 ```sh
-poetry install
+poetry init
 ```
 
 2. Adicione as dependências necessárias.
@@ -41,6 +41,12 @@ poetry add fastapi uvicorn sqlalchemy alembic psycopg2-binary requests
 ```sh
 poetry shell
 ```
+
+6. Como alternativa você pode instalar o ambiente virtual com base no arquivo pyproject.toml
+```sh
+poetry install
+```
+
 
 ## Comandos Alembic - ORM Python
 
