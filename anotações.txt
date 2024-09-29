@@ -1,0 +1,47 @@
+docker para Postgres
+
+	docker run --name postgressql -e POSTGRES_PASSWORD=1234 -p 5432:5432 -d postgres
+
+
+Conexão Banco de Dados:
+	jdbc:postgresql://localhost:5432/postgres?user=postgres&password=1234
+
+
+Poetry - Ambiente Virtual para Python
+	poetry install
+	
+	ry 
+	poetry shell 
+
+
+Comandoa Alembic - ORM Python
+	# na raiz do projeto
+	poetry shell 
+
+	rodar o comando python abaixo para criar a base de dados:
+		python templates/create_db.py
+
+
+	alembic init alembic
+
+	rodar o comando abaixo para sobreescrever o arquivo padrão env.py com as configurações necessárias
+		cp -f templates/env.py alembic/env.py  
+
+	alembic revision --autogenerate -m "v0.0.1 - Criando Tabelas no Schema API" 
+	alembic upgrade head
+
+
+Colocar a api funcionando
+	# na raiz do projeto
+	poetry shell 
+
+	uvicorn app:app --reload --port 8000
+
+
+	# para debugar
+	rodo no VSCode o arquivo run_api.py no mode de depuração
+
+
+
+
+
