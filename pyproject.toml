@@ -1,20 +1,26 @@
-[tool.poetry]
-name = "poetry install"
+[project]
+name = "api_usp_graduacao"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
 readme = "README.md"
+authors = [
+	{name = "Your Name", email = "you@example.com"}
+]
+requires-python = ">=3.12"
 
-[tool.poetry.dependencies]
-python = "^3.12"
-fastapi = "^0.115.0"
-uvicorn = "^0.30.6"
-sqlalchemy = "^2.0.35"
-alembic = "^1.13.3"
-psycopg2-binary = "^2.9.9"
-requests = "^2.32.3"
+dependencies = [
+	"fastapi>=0.115.0,<0.116.0",
+	"uvicorn>=0.30.6,<0.31.0",
+	"sqlalchemy>=2.0.35,<2.1.0",
+	"alembic>=1.13.3,<1.14.0",
+	"psycopg2-binary>=2.9.9,<2.10.0",
+	"requests>=2.32.3,<2.33.0"
+]
 
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=42.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["app"]
