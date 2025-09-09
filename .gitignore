@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.DS_Store
+*.DS_Store
+.DS_Store*
+.DS_Store/*
+./.DS_Store
+
 # C extensions
 *.so
 
@@ -723,3 +729,4 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,pycharm+all,intellij+all
+.DS_Store
